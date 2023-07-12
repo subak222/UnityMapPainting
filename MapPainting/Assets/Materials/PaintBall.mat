@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PaintBall
-  m_Shader: {fileID: -6465566751694194690, guid: 20231a50c9e12df4aafbdcba42667f1c,
+  m_Shader: {fileID: -6465566751694194690, guid: 759f700544e79a045b892ae338ba5e74,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,6 +34,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_b431060f9a934bf2842b7d863f767ef5:
+        m_Texture: {fileID: 2800000, guid: db8a5e0363964fa4ba674f9ec40d52fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -74,6 +78,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_063b1bb47a874c02b093344c5035d22d_Texture_1:
+        m_Texture: {fileID: 2800000, guid: db8a5e0363964fa4ba674f9ec40d52fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_bb70a1ae0694434ea387cb5c608aeeef_Texture_1:
         m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
@@ -96,9 +104,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - Vector1_5865c9337a974261ab98e4dbcacee996: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
+    - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
@@ -123,11 +133,16 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _WorkflowMode: 1
+    - _ZTest: 4
     - _ZWrite: 1
+    - _ZWriteControl: 0
     m_Colors:
+    - Color_b8e9b99e5889460f92aebf9bc0057880: {r: 0, g: 0, b: 0, a: 0}
+    - Color_dec2e6edfde948c1a312273dfe7372d6: {r: 0, g: 0, b: 0, a: 0}
     - _BaseCollor: {r: 1, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _basecolor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
